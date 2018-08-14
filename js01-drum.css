@@ -10,12 +10,21 @@
 .key {
   font-size: 1rem;
   border: 1px white solid;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
   min-width: 100px;
   height: 100px;
-  margin: 20px;
+  margin: 40px 20px;
   text-align: center;
   color: lightgray;
-  transition: all 0.07s;
+  transition: all 1s;
+  text-shadow: 0 0 5px gray;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: brown;
+  box-shadow: 0 0 10px brown;
 }
 
 kbd {
