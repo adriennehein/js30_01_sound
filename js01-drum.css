@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+.key {
+  font-size: 1rem;
+  border: 1px white solid;
+  min-width: 100px;
+  height: 100px;
+  margin: 20px;
+  text-align: center;
+  color: lightgray;
+  transition: all 0.07s;
+}
+
+kbd {
+  display: block;
+  font-size: 3rem;
+  padding-top: 15px;
+}
